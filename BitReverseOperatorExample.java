@@ -6,6 +6,8 @@ public class BitReverseOperatorExample{
 		int num2 = ~num1;  //   1' complement
 		int num3 = num2 + 1; // 2' complement
 		
+		//java
+		
 		String returnValue = toBinaryString(num1);
 		System.out.println(returnValue);
 		
