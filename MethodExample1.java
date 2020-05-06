@@ -12,9 +12,23 @@ public class MethodExample1 {
         // printString("Hello ","Choi");
         // printStar(3,"Hello");
         // printGugudan(8);
-        printTriangle(5);
+        //exercise06(5);
+        System.out.println("반환값 : " + example03());
     }
-    public static void printTriangle(int a){
+    public static int example03(){
+        int sum = 0;
+        for( int i = 1; i <= 100; i++){
+            if(i%3==0){
+                sum += i;
+            }
+        }
+        System.out.println("1~100 3의 배수 합 : " + sum);
+        return sum;
+    }
+
+    
+
+    public static void exercise06(int a){
         for(int i = 1; i<=a; i++){    
             for(int j = 1; j<=i ; j++){
             System.out.print("*");
